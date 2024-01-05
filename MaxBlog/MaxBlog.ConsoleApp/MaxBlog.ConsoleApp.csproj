@@ -1,0 +1,16 @@
+﻿    <Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MaxBlog.Core\MaxBlog.Core.csproj" />
+    <ProjectReference Include="..\MaxBlog.Data\MaxBlog.Data.csproj" />
+    <ProjectReference Include="..\MaxBlog.Services\MaxBlog.Services.csproj" />
+  </ItemGroup>
+
+</Project>
